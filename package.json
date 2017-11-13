@@ -1,0 +1,13 @@
+{
+  "name": "nectar-challenge",
+  "private": true,
+  "description": "A simple implementation challenge using a mock API.",
+  "scripts": {
+    "serve": "node mock"
+  },
+  "devDependencies": {
+    "Faker": "^0.7.2",
+    "node-mock-server": "^0.18.2"
+  },
+  "dependencies": {}
+}

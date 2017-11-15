@@ -31,6 +31,12 @@ Nectar is a platform that uses hardware and software to provide value to custome
 - Use LocalStorage or IndexedDB in to cache data.
 - Use a build system to compile/transform code (webpack, grunt, gulp, etc.)
 - Make an effort for cross browser compatibility
+- Try and match the styles in the reference screenshot.
+
+### Screenshot
+A sample implementation screenshot for inspiration.
+
+![Screenshot](/screenshots/sample_1.png?raw=true "Sample Implementation Screenshot")
 
 Good Luck!
 Don't hesitate to contact us if you have any questions.

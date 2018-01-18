@@ -13,6 +13,10 @@
         {
             "name": "The Whiskey Bar",
             "id": 3
+        },
+        {
+            "name": "Clocktower Brewpub",
+            "id": 4
         }
     ]
 }

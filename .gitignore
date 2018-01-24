@@ -1,1 +1,7 @@
+.node-version
 node_modules/
+
+*.log
+
+# db files
+db.json

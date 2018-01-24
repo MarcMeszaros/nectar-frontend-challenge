@@ -3,11 +3,13 @@
   "private": true,
   "description": "A simple implementation challenge using a mock API.",
   "scripts": {
-    "serve": "node mock"
+    "mock-api": "node mock"
   },
   "devDependencies": {
-    "Faker": "^0.7.2",
-    "node-mock-server": "^0.18.2"
+    "colors": "^1.1.2",
+    "json-server": "^0.12.1",
+    "json-server-extension": "^1.1.2",
+    "lodash": "^4.17.4"
   },
   "dependencies": {}
 }

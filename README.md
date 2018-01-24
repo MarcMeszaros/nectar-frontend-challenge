@@ -5,9 +5,9 @@ Nectar is a platform that uses hardware and software to provide value to custome
 
 ## Backend:
 - The data is provided by a mock API.
-- You need nodejs 4+ installed to run the mock API.
-- Run `npm install` then `npm run serve`, the mock API details from the mocking tool will be available at `http://localhost:3001`.
-- The actual API endpoints will be available at `https://localhost:3001/v1`
+- You need nodejs 8.5+ installed to run the mock API.
+- Run `npm install` then `npm run mock-api`.
+- The API endpoints will be available at `http://localhost:3000/`
 
 ## Frontend:
 - We will show a list of products in inventory retrieved from the server.
@@ -24,7 +24,7 @@ Nectar is a platform that uses hardware and software to provide value to custome
 - You can use JS/CSS libraries for logic and layout/styling.
 - Include instructions on how to compile/run and/or view your site.
 - Document any caveats about the code
-- Only location with id "1" has mocked data. All data is returned in the mock calls, you don't have to worry about pagination.
+- Only location with id "1" has mocked data.
 
 ## Extra points:
 - Use a frontend framework (especially ones we use at Nectar: React and AngularJS)
@@ -45,11 +45,11 @@ Don't hesitate to contact us if you have any questions.
 
 ## Endpoint Schema Information
 
-### Locations (`/v1/locations`)
+### Locations (`/locations`)
 Locations represent a physical location where caps and inventory can be found.
 
-### Inventory (`/v1/inventory`)
+### Inventory (`/inventory`)
 The inventory endpoint represents all the items that a bar or establishment contains. Each inventory record is associated to a product. A location could hive inventory items without a cap.
 
-### Devices (`/v1/devices`)
+### Devices (`/devices`)
 Devices are Nectar caps. The records contain their current status and the product they are configured to measure. It is possible to have multiple caps on the same product.

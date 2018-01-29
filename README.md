@@ -17,7 +17,7 @@ Nectar is a platform that uses hardware and software to provide value to custome
   - product bottle quantity
 - Each product has a physical device that periodically takes a measurement and saves the details of those measurements as a status of that bottle. We need to show some of these device details.
   - bottle percent
-  - battery warn/low thresholds (warn: 1200, low: 1100)
+  - battery millivolt warn/low thresholds (ok: >=1200, warn: <1200, low: <1100)
 
 ## Guidelines:
 - Frontend code should be in JavaScript ES5/ES6+
@@ -30,7 +30,7 @@ Nectar is a platform that uses hardware and software to provide value to custome
 - Use a frontend framework (especially ones we use at Nectar: React and AngularJS)
 - Use LocalStorage or IndexedDB in to cache data.
 - Use a build system to compile/transform code (webpack, grunt, gulp, etc.)
-- Make an effort for cross browser compatibility
+- Responsive/mobile layout
 - Try and match the styles in the reference screenshot.
 
 ### Screenshot

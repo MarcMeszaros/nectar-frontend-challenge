@@ -49,7 +49,7 @@ Don't hesitate to contact us if you have any questions.
 Locations represent a physical location where caps and inventory can be found.
 
 ### Inventory (`/inventory`)
-The inventory endpoint represents all the items that a bar or establishment contains. Each inventory record is associated to a product. A location could hive inventory items without a cap.
+The inventory endpoint represents all the items that a bar or establishment contains. Each inventory record is associated to a product. A location could have inventory items without a cap.
 
 ### Devices (`/devices`)
-Devices are Nectar caps. The records contain their current status and the product they are configured to measure. It is possible to have multiple caps on the same product.
+Devices are Nectar caps. The records contain their last status and the product they are configured to measure. It is possible to have multiple caps on the same product.

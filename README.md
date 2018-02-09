@@ -25,6 +25,8 @@ Nectar is a platform that uses hardware and software to provide value to custome
 - Include instructions on how to compile/run and/or view your site.
 - Document any caveats about the code
 - Only location with id "1" has mocked data.
+- You can use this icon web font if you want: `https://fonts.getnectar.com/nectar-icon/v0.2.1/index.html`
+- Use the endpoints schemas defined below for API calls (ie. using the `/db` endpoint as a shortcut is ***NOT ALLOWED*** in your solution)
 
 ## Extra points:
 - Use a frontend framework (especially ones we use at Nectar: React and AngularJS)
@@ -32,6 +34,10 @@ Nectar is a platform that uses hardware and software to provide value to custome
 - Use a build system to compile/transform code (webpack, grunt, gulp, etc.)
 - Responsive/mobile layout
 - Try and match the styles in the reference screenshot.
+
+## Submission:
+- Create your own Github/Bitbucket/Gitlab/etc. solution repo and send us the link
+- Archive your solution in a .zip and email it back to us
 
 ### Screenshot
 A sample implementation screenshot for inspiration.
